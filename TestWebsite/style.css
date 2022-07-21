@@ -1,0 +1,62 @@
+body{
+	background-image: url(dragonmax.png);
+	background-repeat: repeat;
+	font-family: sans-serif;
+	margin: 0%;
+}
+
+aside {
+	padding-right: 40px;
+	background: black;
+	height: 500px;
+}
+aside.left {
+	float: left;
+}
+aside.right {
+	float: right;
+}
+
+footer{
+	color: white;
+	background: gray;
+	padding: 50px 30px;
+}
+
+form {
+	background: lightblue;
+	padding: 10px;
+	margin: 30%;
+}
+
+header{
+	color: white;
+	background: black;
+	padding: 7px 0px 5px 100px;
+}
+
+section {	
+	color: white;
+	padding: 20px;
+	margin: 10px 20% 10px 25%;
+	background: #6b5391;
+}
+
+a {
+	background: #382424;
+	padding: 5px;
+	text-decoration-line: none;
+	color: white;
+}
+
+li {
+	background: #382424;
+	padding: 5px;
+	margin: 1px;
+	border-radius: 4px;
+}
+
+@media  aside{
+	height: 0; 
+	overflow: hidden;
+}
