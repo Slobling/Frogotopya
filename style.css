@@ -1,6 +1,6 @@
 body{
 	color: white;
-	background-image: url(image/potok.webp);
+	background-image: url(/image/potok.webp);
 	background-repeat: repeat;
 	font-family: sans-serif;
 	margin: 0%;
@@ -30,8 +30,6 @@ aside li {
 	padding: 5px;
 	margin: 5px 0px 0px 0px;
 	border-radius: 4px;
-}
-aside h2 {
 }
 
 footer{
@@ -72,9 +70,4 @@ img.logo{
 	padding: 5px;
 	margin: 10px;
 	float: left;
-}
-
-@media  aside{
-	height: 0; 
-	overflow: hidden;
 }
