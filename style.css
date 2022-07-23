@@ -1,9 +1,9 @@
 body{
-	color: white;
 	background-image: url(potok.png);
 	background-repeat: repeat;
 	font-family: sans-serif;
 	margin: 0%;
+	color: white;
 }
 
 aside {
